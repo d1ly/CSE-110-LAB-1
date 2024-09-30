@@ -53,3 +53,29 @@ p {
 #navbar :hover{
     color:white;
 }
+
+.logo { /*class for top logo resizing*/
+    max-width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    #navbar {
+        display: none; 
+    }
+
+    .logo { 
+        max-width: 75%; 
+    }
+
+    h1, h2 {
+        font-size: 24px; 
+    }
+
+    p {
+        font-size: 20px; 
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
