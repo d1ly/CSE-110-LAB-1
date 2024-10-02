@@ -42,20 +42,41 @@ p {
     font-size: 28px;
 }
 
-#navbar {
-    position: sticky;
-    top: 0;
+.navbar {
     width: 400px;
     font-size: 28px;
-    background-color: #182b49;
+    background-color: white;
+    margin: 5px;
+    padding: 3px;
   }
 
-#navbar :hover{
-    color:white;
+.nav-item {
+    padding: 11px;
+    color: black;
+    text-decoration: none;
 }
+
+.nav-item:hover {
+    color: white;
+    background-color: #182b49;
+}
+
+.nav-item:active {
+    color: white;
+    background-color: #182b49;
+}
+
 
 .logo { /*class for top logo resizing*/
     max-width: 100%;
+}
+
+.header {
+    background-color:white;
+    position: sticky;
+    top: 0;
+    display: inline-block;
+    width: 100%;
 }
 
 @media screen and (max-width: 800px) {
